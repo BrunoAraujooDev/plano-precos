@@ -1,0 +1,59 @@
+.card-preco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.mat-card>:first-child, .mat-card-content>:first-child {
+    margin: 1.5rem 0;
+}
+
+.card-titulo{
+    width: 100%;
+    text-align: center;
+
+}
+
+.card-valor{
+    font-size: 4.5rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+span{
+    font-size: 2.5rem;
+    top: -10px;
+    position: relative;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: 4rem;
+}
+
+ul{
+    text-align: center;
+    padding: 0;
+    width: 300px;
+}
+
+li:nth-child(odd){
+    border-top: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190); 
+}
+
+.card-botao{
+    width: 100%;
+    margin-top: 2rem;
+}

@@ -1,0 +1,83 @@
+.principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    color: rgb(144, 145, 151);
+}
+
+
+.secao-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    margin-top: 3rem;
+}
+
+h1{
+    color: rgb(79 80 88);
+}
+
+
+.toggle{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.input-toggle{
+    display: none;
+}
+
+.div-toggle{
+    position: relative;
+    width: 4.5rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #9EA6E9;
+}
+
+
+.div-toggle::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.6rem;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s;
+
+}
+
+.input-toggle:checked ~ .div-toggle::after{
+    transform: translateX(2.7rem);
+}
+
+.secao-pricing{
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
