@@ -31,4 +31,5 @@ export class CardComponent  {
   emitirClick(): void{
     this.btnClick.emit();
   }
+
 }
