@@ -3,16 +3,16 @@
         {{titulo}}
     </mat-card-title>
     <mat-card-subtitle class="card-valor" [style]="'color:' + corLetra">
-        <span>$ </span>{{preco}}
+        <span class="span-dolar">$ </span>{{preco}}
     </mat-card-subtitle>
     <mat-card-content>
         
-        <ul>
+        <mat-list role="list">
 
-            <li *ngFor="let conteudo of conteudos" class="lista">
+            <mat-list-item role="listitem" *ngFor="let conteudo of conteudos" class="lista">
                 {{conteudo}}
-            </li>
-        </ul>
+            </mat-list-item>
+        </mat-list>
     </mat-card-content>
     <button 
         mat-stroked-button 

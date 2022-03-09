@@ -25,31 +25,31 @@
     margin: 2rem 0;
 }
 
-span{
+.span-dolar{
     font-size: 2.5rem;
     top: -10px;
     position: relative;
 }
 
 .lista{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
     font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    width: 100%;
+    font-weight: 700;
     min-height: 4rem;
 }
 
-ul{
-    text-align: center;
+mat-list{
     padding: 0;
     width: 300px;
 }
 
-li:nth-child(odd){
+mat-list-item{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lista:nth-child(odd){
     border-top: 1px solid rgb(190, 190, 190);
     border-bottom: 1px solid rgb(190, 190, 190); 
 }
