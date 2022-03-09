@@ -13,18 +13,24 @@
             titulo="Basic" 
             preco="19.99" 
             [conteudos]="lista1" 
-            (btnClick)="alertaCompra()"
+            (btnClick)="openSnackBar()"
         ></app-card>
         <app-card 
-        altura="600px" 
-        titulo="Professional" 
-        preco="24.99" 
-        [conteudos]="lista2"
-        fundo="linear-gradient(360deg, rgba(110,114,222) 0%, rgba(160,168,234) 100%" 
-        corLetra="#fff"
-        corLetraBotao="#fff" fundoBotao="rgba(110,114,222)" 
-        (btnClick)="alertaCompra()" class="lista-do-meio">
-        </app-card>
-        <app-card titulo="Master" preco="34.99" [conteudos]="lista3" (btnClick)="alertaCompra()"></app-card>
+            altura="600px" 
+            titulo="Professional" 
+            preco="24.99" 
+            [conteudos]="lista2"
+            fundo="linear-gradient(360deg, rgba(110,114,222) 0%, rgba(160,168,234) 100%" 
+            corLetra="#fff"
+            corLetraBotao="#fff" fundoBotao="rgba(110,114,222)" 
+            (btnClick)="openSnackBar()" class="lista-do-meio"
+        ></app-card>
+        <app-card 
+            titulo="Master" 
+            preco="34.99" 
+            [conteudos]="lista3" 
+            (btnClick)="openSnackBar()"
+        ></app-card>
     </section>
 </main>
+
